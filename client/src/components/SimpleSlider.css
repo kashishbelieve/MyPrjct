@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .slidingimage {
+    width: 80%;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .images {
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  .images img {
+    object-fit: cover;
+  }
+  
+  .images .referral-code {
+    text-align: center;
+    color: #163829;
+  }
+  
+  .images .copy-button {
+    border: #163829 solid 2px;
+  }
+  
+  .buttons {
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .buttons-prev,
+  .buttons-next {
+    display: flex;
+    align-items: center;
+  }
+  
+  .prevbtn,
+  .nextbtn {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Heading {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+  }
+  
+  .Heading:hover {
+    text-decoration: underline;
+  }
+  .content {
+    text-align: justify;
+  }
+  
+  .content p {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .copy-button {
+    padding: 8px;
+    border: 2px solid #163829;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #163829;
+  }
+  
